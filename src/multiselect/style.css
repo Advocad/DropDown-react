@@ -1,0 +1,27 @@
+.multiSelectContainer {
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.searchWarpper {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding: 5px;
+  min-height: 22px;
+  position: relative;
+}
+
+.singleSelect {
+  padding-right: 20px;
+}
+
+.icon_down_dir {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.icon_down_dir:before { 
+  content: '\e803'; 
+}
