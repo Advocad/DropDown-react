@@ -1,7 +1,7 @@
 ## Multi-Select react
 
-#Установка 
+#Установка <br>
 yarn
 
-#Запуск /n
+#Запуск <br>
 yarn start
