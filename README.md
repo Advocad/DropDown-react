@@ -1,4 +1,4 @@
-## Multi-Select react
+## Select react
 
 #Установка <br>
 yarn
