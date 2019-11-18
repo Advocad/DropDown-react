@@ -2,8 +2,10 @@
   position: relative;
   text-align: left;
   width: 100%;
+  position: relative;
+  text-align: left;
+  width: 100%;
 }
-
 .searchWarpper {
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -11,11 +13,125 @@
   min-height: 22px;
   position: relative;
 }
-
+.multiSelectContainer input {
+  border: none;
+  margin-top: 3px;
+  background: transparent;
+}
+.multiSelectContainer input:focus {
+  outline: none;
+}
+.chip {
+  margin: 0 3px 3px 0;
+  border-radius: 2px;
+  padding: 4px 3px 5px 7px!important;
+  color: #55677d;
+  cursor: default;
+  background: #dae2e8;
+  font-size: 1em;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.singleChip {
+  background: none;
+  border-radius: none;
+  color: inherit;
+  white-space: nowrap;
+}
+.singleChip i {
+  display: none;
+}
+.closeIcon {
+  font-size: 12px;
+  float: right;
+  margin-left: 5px;
+  cursor: pointer;
+  position: relative;
+  padding-left: 15px;
+}
+.optionListContainer {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 1px;
+  z-index: 2;
+}
+.multiSelectContainer ul {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+}
+.multiSelectContainer li {
+  padding: 10px 10px;
+  border-bottom: 1px solid #dae2e8
+}
+.multiSelectContainer li:hover {
+  background: #dae2e8;
+  color: #72678d;
+  cursor: pointer;
+}
+.checkbox {
+  margin-right: 10px;
+}
+.disableSelection {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.highlightOption {
+  background: #dae2e8;
+  color: #72678d;
+}
+.displayBlock {
+  display: block;
+}
+.displayNone {
+  display: none;
+}
+.notFound {
+  padding: 10px;
+  display: block;
+}
 .singleSelect {
   padding-right: 20px;
 }
-
+li.groupHeading {
+  color: #908e8e;
+  pointer-events: none;
+  padding: 5px 15px;
+}
+li.groupChildEle {
+  padding-left: 30px;
+}
+.icon_cancel_circled:before {
+  content: "\e800";
+}
+.icon_cancel:before {
+  content: '';
+  background: url(../img/tag_cross.png);
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px!important;
+  cursor: pointer;
+  vertical-align: top;
+  padding: 0;
+  margin: auto 4px;
+}
+.icon_cancel_circled2:before {
+  content: "\e802";
+}
+.icon_window_close:before {
+  content: "\f2d3";
+}
 .icon_down_dir {
   position: absolute;
   right: 5px;
